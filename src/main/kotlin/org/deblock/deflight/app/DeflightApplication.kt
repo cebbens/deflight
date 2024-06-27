@@ -1,9 +1,9 @@
-package org.deblock.deflight
+package org.deblock.deflight.app
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = ["org.deblock.deflight"])
 class DeflightApplication
 
 fun main(args: Array<String>) {
